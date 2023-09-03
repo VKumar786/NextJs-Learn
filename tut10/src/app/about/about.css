@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 8px 16px;
+    border: 1px solid #262626;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #262626;
+    transition: 0.1s ease-in-out;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: greenyellow;
+
+    font-size: 35px;
+}

@@ -14,6 +14,11 @@ const About = () => {
             &nbsp;
 
             <button onClick={() => router.push('/')}>Go Back</button>
+
+            <br />
+            <Link href={'/about/aboutCollege'}>About College</Link>
+            <br />
+            <Link href={'/about/aboutStudent'}>About Student</Link>
         </div>
     )
 }

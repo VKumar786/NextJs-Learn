@@ -6,6 +6,9 @@ import { useRouter } from 'next/navigation'
 
 const Login = () => {
   const router = useRouter()
+  const navigate = (page) => {
+    router.push('/login/' + page)
+  }
   return (
     <div>
       <h3>
@@ -16,6 +19,10 @@ const Login = () => {
       &nbsp;
 
       <button onClick={() => router.push('/')}>Go Back</button>
+
+      <br />
+      <button onClick={() => navigate('loginCollege')}>Login College</button>
+      <button onClick={() => navigate('loginStudent')}>Login Student</button>
     </div>
   )
 }
